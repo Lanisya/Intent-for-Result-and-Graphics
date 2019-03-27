@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         paint = new Paint();
 
         // Memberikan warna kanvas
-        canvas.drawColor(Color.argb(15, 0, 0, 0));
+        canvas.drawColor(Color.argb(15, 0, 255, 0));
 
         // Mengatur warna
         paint.setColor(Color.argb(100,  225, 80, 182));
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
         canvas.drawLine(0,0,250,250,paint);
 
         // membuat Tulisan
-        canvas.drawText("MAYVAN GANDHY", 400, 400, paint);
+        canvas.drawText("HAI EPAN!!!", 400, 400, paint);
 
         // membuat lingkaran
         canvas.drawCircle(600,10,100,paint);
